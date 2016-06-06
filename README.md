@@ -14,7 +14,7 @@ Then navigate to the folder where you cloned this project, open the terminal and
   
   `gulp`
   
-with that, we have installed the nescessary dependencies and minified the files with gulp.
+with that, we have installed the necessary dependencies and minified the files with gulp.
 
 Now we need to start our Node proxy(to avoid CORS), on the same terminal run:
 
