@@ -1,0 +1,82 @@
+html{
+    margin: 0;
+    background-color: gray;
+    height: 100%;       
+}
+
+div.pplBox{
+    background-color: #F6F6F1;   
+    position: absolute;
+    top: 50%;
+    left: 50%;    
+    transform: translate(-50%,-60%);
+    padding: 1em;
+    border-radius: 30px 0px;
+    width: 70%;
+}
+
+@media screen and (min-width: 800px){
+    div.quote{
+        font-size: 23px;
+        font-style: italic;    
+    }
+
+    div.author{
+        text-align: right;
+        margin-top: 4px;
+        margin-bottom: 4px;
+        margin-right: 50px;
+    }
+
+    div.counter{    
+        right: 10px;
+        position: relative;
+        float: right;
+        bottom: 5px;
+        font-size: smaller;
+    }
+    
+@media screen and (min-width: 1280px){
+    div.quote{
+        font-size: 33px;
+        font-style: italic;    
+    }
+
+    div.author{
+        text-align: right;
+        margin-top: 4px;
+        margin-bottom: 4px;
+        margin-right: 50px;
+        font-size: 25px;
+    }
+
+    div.counter{    
+        right: 10px;
+        position: relative;
+        float: right;
+        bottom: 5px;
+        font-size: larger;
+    }
+    
+@media screen and (min-width: 1920px){
+    div.quote{
+        font-size: 50px;
+        font-style: italic;    
+    }
+
+    div.author{
+        text-align: right;
+        margin-top: 4px;
+        margin-bottom: 4px;
+        margin-right: 50px;
+        font-size: 35px;
+    }
+
+    div.counter{    
+        right: 10px;
+        position: relative;
+        float: right;
+        bottom: 5px;
+        font-size: 25px;
+    }
+}
